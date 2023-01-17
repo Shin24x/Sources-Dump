@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barangay Officials Information Sheet</title>
+</head>
+
+<body>
+    <h2>Barangay Officials Information Sheet</h2>
+    <form action="add_users.php" method="POST">
+        <label>Region: </label>
+        <input type="text" name="Region" placeholder="Region" required>
+        <br><br>
+        <label>Province: </label>
+        <input type="text" name="Province" placeholder="Province" required>
+        <br><br>
+        <label>City/Municipality: </label>
+        <input type="text" name="City" placeholder="City/Muncipality" required>
+        <br><br>
+        <label>Barangay: </label>
+        <input type="text" name="Barangay" placeholder="Barangay" required>
+        <br><br>
+        <label>Name: </label>
+        <input type="text" name="Fname" placeholder="First Name" required>
+        <input type="text" name="Mname" placeholder="Middle Name">
+        <input type="text" name="Lname" placeholder="Last Name" required>
+        <br><br>
+        <label>Date of Birth: </label>
+        <input type="text" name="bday" placeholder="Date of Birth">
+        <br><br>
+        <label>Sex:</label>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+        <br><br>
+        <label>Civil Status:</label>
+        <input type="radio" id="single" name="status" value="Single">
+        <label for="single">Single</label>
+        <input type="radio" id="married" name="status" value="Married">
+        <label for="married">Married</label>
+        <input type="radio" id="widower" name="status" value="Widow/er">
+        <label for="widower">Widow/er</label>
+        <input type="radio" id="separated" name="status" value="Separated">
+        <label for="separated">Separated</label>
+        <br><br>
+        <label>Highest Educational Attainment:</label>
+        <input type="radio" id="elementary" name="education" value="Elementary">
+        <label for="elementary">Elementary</label>
+        <input type="radio" id="highschool" name="education" value="HighSchool">
+        <label for="highschool">High School</label>
+        <input type="radio" id="college" name="education" value="college">
+        <label for="college">College</label>
+        <input type="radio" id="gradstudies" name="education" value="Graduate Studies">
+        <label for="gradstudies">Graduate Studies</label>
+        <input type="radio" id="vocational" name="education" value="Vocational">
+        <label for="vocational">Vocational</label>
+
+        <br><br><label>Profession/Occupation: </label>
+        <input type="text" name="Occupation" placeholder="Occupation" required>
+
+        <br><br>
+        <label>Residence Address: </label>
+        <input type="text" name="Address" placeholder="Address" required required>
+        <br><br>
+
+        <label>Cellphone No.: </label>
+        <input type="number" name="cpNum" placeholder="Cellphone No." required>
+        <br><br>
+        <label>Barangay Hall Tel. No. </label>
+        <input type="number" name="bhNum" placeholder="Barangay Hall Tel. No." required><br><br>
+
+        <input type="submit">
+
+    </form>
+</body>
+
+</html>
